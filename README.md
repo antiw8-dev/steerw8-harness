@@ -127,13 +127,18 @@ Output requirements:
 - Data with units. Sources traceable.
 ```
 
-## Pair with Antiw8
+## Pair with Antiw8 + Kestrel
 
-SteerW8-Harness handles **how to execute** (the rein). Pair it with [Antiw8](https://github.com/antiw8-dev/antiw8) (cognitive bias defense / seeing clearly) for full coverage:
+SteerW8-Harness handles **how to execute** (the rein). Pair it with:
 
-**"Antiw8 sees the system. SteerW8-Harness steers it."**
+- [Antiw8](https://github.com/antiw8-dev/antiw8) (cognitive bias defense / seeing clearly)
+- [Kestrel-Hover](https://github.com/antiw8-dev/kestrel-hover) (output-layer stabilization / flying steady)
 
-See clearly so you don't veer. Steer firmly so you don't drift. The two System Prompts can be merged without conflict.
+for full three-layer coverage:
+
+**"Antiw8 sees the system. SteerW8-Harness steers it. Kestrel holds it steady."**
+
+See clearly so you don't veer. Steer firmly so you don't drift. Hover steadily so you stay on target. The three System Prompts can be merged without conflict.
 
 ## Roadmap
 
