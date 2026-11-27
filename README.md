@@ -51,6 +51,20 @@ Lead with the conclusion (one sentence). Follow with evidence (bulleted, sourced
 3. Ask questions normally — the AI will automatically follow the S.T.E.E.R flow
 4. Optionally combine with [Antiw8](https://github.com/antiw8-dev/antiw8) cognitive bias defense for full coverage
 
+## FAQ
+
+**Q: What is SteerW8-Harness?**
+A: A copy-paste system prompt implementing the S.T.E.E.R protocol (Split, Tool-select, Execute, Evaluate, Report) — a discipline layer for AI task execution.
+
+**Q: How do I stop my AI agent from over-calling tools?**
+A: The protocol caps tool use at 1–2 per subtask and requires matching the tool to the subtask type (real-time data → search, math → code, files → file reader, pure reasoning → no tool).
+
+**Q: Does it work with free or low-tier models?**
+A: It is designed as scaffolding for weaker models: plan-first execution plus cross-verification reduces tool misuse and hallucination carry-over. Subjective experience, no benchmark claimed.
+
+**Q: Does it conflict with Antiw8?**
+A: No — they compose. Antiw8 handles what to watch (cognitive bias defense); SteerW8-Harness handles how to execute. Both are plain system prompts and can be merged.
+
 ## System Prompt
 
 ```
